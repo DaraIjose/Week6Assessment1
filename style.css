@@ -1,0 +1,12 @@
+/* CSS Variables and Responsiveness */
+
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+:root {
+    --brightorange: hsl(31, 77%, 52%);
+    --darkcyan: hsl(184, 100%, 22%);
+    --verydarkcyan: hsl(179, 100%, 13%);
+    --transwhite: hsla(0, 0%, 100%, 0.75);
+    --verylightgray: hsl(0, 0%, 95%);
+}
