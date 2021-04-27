@@ -1,8 +1,3 @@
-/* CSS Variables and Responsiveness */
-
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
-
 :root {
     --brightorange: hsl(31, 77%, 52%);
     --darkcyan: hsl(184, 100%, 22%);
@@ -21,8 +16,7 @@ body {
     width: 60vw;
     margin: 150px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr; 
 }
 
 .child1 {
@@ -32,6 +26,7 @@ body {
 
 .child2 {
     background-color: var(--darkcyan);
+    border-radius: ;
 }
 
 .child3 {
@@ -69,6 +64,7 @@ button{
 }
 .b2 {
     color: var(--darkcyan);
+    margin-bottom: 100px;
 }
 .b3 {
     color: var(--verydarkcyan);
@@ -79,16 +75,12 @@ img {
 }
 
 @media (max-width: 760px) {
-    body {
-        
-    }
     #container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        height: 70vh;
-        
+        width: 50vw
     }
     .child1 {
         border-radius: 10px 10px 0 0;
